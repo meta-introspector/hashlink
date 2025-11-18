@@ -8,7 +8,7 @@ documentation = "https://docs.rs/hashlink"
 readme = "README.md"
 keywords = ["data-structures", "no_std"]
 license = "MIT OR Apache-2.0"
-rust-version = "1.65"
+# rust-version = "1.65"
 
 [badges]
 circle-ci = { repository = "kyren/hashlink", branch = "master" }
@@ -23,3 +23,5 @@ serde = { version = "1.0", default-features = false, optional = true }
 [dev-dependencies]
 serde_test = "1.0"
 rustc-hash = "2"
+
+#[workspace]

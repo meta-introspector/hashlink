@@ -5,4 +5,4 @@ Cargo.lock
 .envrc
 .direnv
 shell.nix
-.dir-locals.el
+.dir-locals.elprocess-repo.log
